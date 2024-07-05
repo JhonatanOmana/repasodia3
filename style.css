@@ -1,0 +1,129 @@
+
+.contenedor{
+    width: 100vw;
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+body {
+    font-family: 'Alfa Slab One', cursive;
+    font-size:6rem;
+    background:#2c333a;
+  }
+  
+.letra1{
+    
+    transform: rotatex(180deg);
+    animation-name: letra1;
+    color: aqua;
+    animation-duration: 2s;
+
+}
+
+@keyframes letra1 {
+    0% {transform: rotatex(180deg);}
+    50% {transform: rotatex(0deg);}
+    100% {transform: rotatex(180deg);}
+    
+}
+
+
+.letra2{
+    
+    transform: rotatex(180deg);
+    animation-name: letra1;
+    color: aqua;
+    animation-duration: 2.2s;
+
+}
+
+@keyframes letra2 {
+    0% {transform: rotatex(180deg);}
+    50% {transform: rotatex(0deg);}
+    100% {transform: rotatex(180deg);}
+    
+}
+
+.letra3{
+    
+    transform: rotatex(180deg);
+    animation-name: letra1;
+    color: aqua;
+    animation-duration: 2.4s;
+
+}
+
+@keyframes letra3 {
+    0% {transform: rotatex(180deg);}
+    50% {transform: rotatex(0deg);}
+    100% {transform: rotatex(180deg);}
+    
+}
+
+.letra4{
+    
+    transform: rotatex(180deg);
+    animation-name: letra1;
+    color: aqua;
+    animation-duration: 2.6s;
+
+}
+
+@keyframes letra4 {
+    0% {transform: rotatex(180deg);}
+    50% {transform: rotatex(0deg);}
+    100% {transform: rotatex(180deg);}
+    
+}
+
+.letra5{
+    
+    transform: rotatex(180deg);
+    animation-name: letra1;
+    color: aqua;
+    animation-duration: 2.8s;
+
+}
+
+@keyframes letra5 {
+    0% {transform: rotatex(180deg);}
+    50% {transform: rotatex(0deg);}
+    100% {transform: rotatex(180deg);}
+    
+}
+
+.letra6{
+    
+    transform: rotatex(180deg);
+    animation-name: letra1;
+    color: aqua;
+    animation-duration: 3s;
+
+}
+
+@keyframes letra6 {
+    0% {transform: rotatex(180deg);}
+    50% {transform: rotatex(0deg);}
+    100% {transform: rotatex(180deg);}
+    
+}
+
+.letra7{
+    
+    transform: rotatex(180deg);
+    animation-name: letra1;
+    color: aqua;
+    animation-duration: 3.2s;
+
+}
+
+@keyframes letra7 {
+    0% {transform: rotatex(180deg);}
+    50% {transform: rotatex(0deg);}
+    100% {transform: rotatex(180deg);}
+    
+}

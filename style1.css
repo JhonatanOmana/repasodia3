@@ -1,0 +1,38 @@
+.cielo{
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    z-index: 1vw;
+    left: 1px;
+    top: 0px;
+
+}
+
+.nube{
+    position: absolute;
+    top: 5vw;
+    animation-timing-function: linear;
+    animation-name: nubes;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
+.nube2{
+    position: absolute;
+    top: 15vw;
+    animation-timing-function: linear;
+    animation-name: nubes;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nubes {
+    from{
+        translate: -30vw;
+    }
+    to{
+        translate: 100vw;
+    }
+    
+}
